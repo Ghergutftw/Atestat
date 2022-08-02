@@ -1,0 +1,44 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url("../Poze/Stadion.jpg")  no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+  color: orange;
+  font-size: 5rem;
+  -webkit-text-stroke: 2px black;
+}
+
+.btn btn-warning{
+  color: orange;
+}
+
+.btn{
+  border-radius: 300px ;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+
+.btn-xl{
+  padding: 1rem 2rem;
+}
+
+.btn-xl:hover{
+  background-color: red;
+  border: none;
+  border-width: 4px;
+  transform: scale(1.1);
+
+}
+
+
+
+.buffer{
+  height: 10rem;
+}
